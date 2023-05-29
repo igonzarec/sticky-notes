@@ -1,0 +1,30 @@
+/* NotePage.module.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f6f8;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #0070f3;
+}
+
+h5 {
+    margin-bottom: 20px;
+    color: #333;
+    white-space: pre-wrap; /* Preserve line breaks in the note content */
+}
+
+p {
+    color: #888;
+}

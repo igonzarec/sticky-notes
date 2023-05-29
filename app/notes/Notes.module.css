@@ -1,0 +1,99 @@
+.pageTitle {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+}
+
+/*.grid {*/
+/*    margin-top: 2rem;*/
+/*    display: flex;*/
+/*    align-items: flex-start;*/
+/*    justify-content: flex-start;*/
+/*    flex-wrap: wrap;*/
+/*    max-width: 1000px;*/
+/*}*/
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+
+.action {
+    text-align: left;
+    color: dodgerblue;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    padding: 1rem;
+    margin: 1rem;
+    background: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.note:hover {
+    transform: scale(1.02);
+}
+
+.note h2 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.note h5 {
+    color: #666;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.note p {
+    color: #999;
+    font-size: 0.8rem;
+}
+
+.container {
+    padding: 0 2rem;
+}
+
+.pageTitle {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3rem;
+}
+
+.note {
+    height: auto;
+    width: 200px;
+    padding: 0.25rem;
+    border-radius: 2px;
+}
+
+.title {
+    padding: 0.1rem;
+    font-size: 1rem;
+}
+
+.content {
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.created {
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+
+.action {
+    text-align: left;
+    color: dodgerblue;
+}
